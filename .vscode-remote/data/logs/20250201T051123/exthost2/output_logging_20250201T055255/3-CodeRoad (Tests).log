@@ -1,0 +1,64 @@
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('footer.jpeg') < 0 && lastCommand[0] === 'rm' && /footer\.jpeg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/680.test.js:9:5)

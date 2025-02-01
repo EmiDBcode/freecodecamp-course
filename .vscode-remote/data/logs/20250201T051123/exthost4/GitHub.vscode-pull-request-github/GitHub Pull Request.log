@@ -1,0 +1,15 @@
+2025-02-01 06:05:32.930 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2025-02-01 06:05:32.930 [info] Activation> Extension version: 0.102.0
+2025-02-01 06:05:35.678 [info] Looking for git repository
+2025-02-01 06:05:35.678 [info] Found 0 repositories during activation
+2025-02-01 06:05:35.678 [info] Git repository found, initializing review manager and pr tree view.
+2025-02-01 06:05:35.681 [info] Registering git provider
+2025-02-01 06:05:35.681 [info] Review+0> Validate state in progress
+2025-02-01 06:05:35.681 [info] Review+0> Validating state...
+2025-02-01 06:05:35.880 [info] Found GitHub remote for folder /workspace/project
+2025-02-01 06:05:35.882 [info] Trying to use globalState for assignableUsers.
+2025-02-01 06:05:35.892 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-02-01 06:05:35.899 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-02-01 06:05:36.084 [info] GlobalState does not exist for assignableUsers.
+2025-02-01 06:05:36.724 [info] Repo state for file:///workspace/project changed.
+2025-02-01 06:05:36.724 [info] Repo file:///workspace/project has already been setup.

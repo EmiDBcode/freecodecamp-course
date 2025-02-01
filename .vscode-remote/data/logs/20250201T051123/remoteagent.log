@@ -1,0 +1,28 @@
+2025-02-01 05:11:23.160 [info] 
+
+
+
+
+2025-02-01 05:11:23.178 [info] Extension host agent started.
+2025-02-01 05:11:23.233 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-02-01 05:11:23.233 [info] Extension 'github.vscode-pull-request-github' v0.102.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-02-01 05:11:26.560 [info] [192.168.171.139][e45496ba][ManagementConnection] New connection established.
+2025-02-01 05:11:26.773 [info] [192.168.95.201][80e7992f][ExtensionHostConnection] New connection established.
+2025-02-01 05:11:26.823 [info] [192.168.95.201][80e7992f][ExtensionHostConnection] <117> Launched Extension Host Process.
+2025-02-01 05:52:48.970 [info] [192.168.171.139][e45496ba][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-01 05:52:49.058 [info] [192.168.95.201][80e7992f][ExtensionHostConnection] <117> Extension Host Process exited with code: 0, signal: null.
+2025-02-01 05:52:52.656 [info] [192.168.171.139][83e36eb4][ManagementConnection] New connection established.
+2025-02-01 05:52:53.220 [info] [192.168.95.201][d4e58d16][ExtensionHostConnection] New connection established.
+2025-02-01 05:52:53.226 [info] [192.168.95.201][d4e58d16][ExtensionHostConnection] <5784> Launched Extension Host Process.
+2025-02-01 06:01:07.522 [info] [192.168.171.139][83e36eb4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-01 06:01:07.602 [info] [192.168.95.201][d4e58d16][ExtensionHostConnection] <5784> Extension Host Process exited with code: 0, signal: null.
+2025-02-01 06:01:10.855 [info] [192.168.69.10][010f8bef][ManagementConnection] New connection established.
+2025-02-01 06:01:11.494 [info] [192.168.171.139][ba3a12aa][ExtensionHostConnection] New connection established.
+2025-02-01 06:01:11.499 [info] [192.168.171.139][ba3a12aa][ExtensionHostConnection] <7414> Launched Extension Host Process.
+2025-02-01 06:05:25.064 [info] [192.168.69.10][010f8bef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-01 06:05:25.151 [info] [192.168.171.139][ba3a12aa][ExtensionHostConnection] <7414> Extension Host Process exited with code: 0, signal: null.
+2025-02-01 06:05:28.364 [info] [192.168.95.201][23bfec2c][ManagementConnection] New connection established.
+2025-02-01 06:05:28.883 [info] [192.168.95.201][cc4a54a6][ExtensionHostConnection] New connection established.
+2025-02-01 06:05:28.889 [info] [192.168.95.201][cc4a54a6][ExtensionHostConnection] <8397> Launched Extension Host Process.
+2025-02-01 06:09:47.703 [info] [192.168.95.201][23bfec2c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-01 06:09:47.779 [info] [192.168.95.201][cc4a54a6][ExtensionHostConnection] <8397> Extension Host Process exited with code: 0, signal: null.

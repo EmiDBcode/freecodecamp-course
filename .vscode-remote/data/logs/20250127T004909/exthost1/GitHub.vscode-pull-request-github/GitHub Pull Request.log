@@ -1,0 +1,21 @@
+2025-01-27 00:49:15.910 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2025-01-27 00:49:15.910 [info] Activation> Extension version: 0.102.0
+2025-01-27 00:49:18.057 [info] Looking for git repository
+2025-01-27 00:49:18.057 [info] Found 0 repositories during activation
+2025-01-27 00:49:18.057 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-27 00:49:18.061 [info] Registering git provider
+2025-01-27 00:49:18.061 [info] Review+0> Validate state in progress
+2025-01-27 00:49:18.061 [info] Review+0> Validating state...
+2025-01-27 00:49:18.243 [info] Found GitHub remote for folder /workspace/project
+2025-01-27 00:49:18.245 [info] Trying to use globalState for assignableUsers.
+2025-01-27 00:49:18.254 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-27 00:49:18.260 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-27 00:49:18.419 [info] GlobalState does not exist for assignableUsers.
+2025-01-27 00:52:16.083 [info] Repo state for file:///workspace/project changed.
+2025-01-27 00:52:16.083 [info] Repo file:///workspace/project has already been setup.
+2025-01-27 00:55:10.430 [info] Review+0> Validate state in progress
+2025-01-27 00:55:10.430 [info] Review+0> Validating state...
+2025-01-27 00:55:10.597 [info] Found GitHub remote for folder /workspace/project
+2025-01-27 00:55:10.598 [info] Using in-memory cached assignable users.
+2025-01-27 00:55:10.606 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-27 00:55:10.614 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

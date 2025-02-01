@@ -1,0 +1,31 @@
+2025-01-24 22:23:25.200 [info] 
+
+
+
+
+2025-01-24 22:23:25.222 [info] Extension host agent started.
+2025-01-24 22:23:25.246 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-01-24 22:23:25.385 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-01-24 22:23:25.414 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-01-24 22:23:26.919 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2025-01-24 22:23:26.942 [info] Getting Manifest... github.vscode-pull-request-github
+2025-01-24 22:23:27.024 [info] [192.168.69.10][958ce056][ManagementConnection] New connection established.
+2025-01-24 22:23:27.247 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-14T18:16:31.093Z"}}
+2025-01-24 22:23:28.600 [error] Could not load vsce-sign module Cannot find package 'node-ovsx-sign' imported from /ide/out/server-main.js
+2025-01-24 22:23:28.600 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2025-01-24 22:23:28.678 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.102.0-universal: github.vscode-pull-request-github
+2025-01-24 22:23:28.689 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.102.0-universal
+2025-01-24 22:23:28.710 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2025-01-24 22:23:28.712 [info] Extension 'github.vscode-pull-request-github' v0.102.0 was successfully installed.
+2025-01-24 22:23:28.712 [info] Installing extensions...
+2025-01-24 22:23:29.022 [info] Installing extension 'coderoad.coderoad'...
+2025-01-24 22:23:29.022 [info] Getting Manifest... coderoad.coderoad
+2025-01-24 22:23:29.189 [info] Installing extension: coderoad.coderoad {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-14T18:16:31.093Z"}}
+2025-01-24 22:23:29.711 [info] [192.168.95.201][09f9a688][ExtensionHostConnection] New connection established.
+2025-01-24 22:23:29.716 [info] [192.168.95.201][09f9a688][ExtensionHostConnection] <138> Launched Extension Host Process.
+2025-01-24 22:23:30.018 [error] Could not load vsce-sign module Cannot find package 'node-ovsx-sign' imported from /ide/out/server-main.js
+2025-01-24 22:23:30.018 [info] Extension signature verification is not done: coderoad.coderoad
+2025-01-24 22:23:30.109 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal: coderoad.coderoad
+2025-01-24 22:23:30.113 [info] Renamed to /workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal
+2025-01-24 22:23:30.123 [info] Extension installed successfully: coderoad.coderoad file:///workspace/.vscode-remote/extensions/extensions.json
+2025-01-24 22:23:30.124 [info] Extension 'coderoad.coderoad' v0.19.4 was successfully installed.

@@ -1,0 +1,542 @@
+2025-01-27 01:08:06.959 [info] Extension host with pid 8573 started
+2025-01-27 01:08:06.962 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/98105b4/vscode.lock': Lock acquired.
+2025-01-27 01:08:07.156 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2025-01-27 01:08:07.654 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-27 01:08:07.827 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-27 01:08:07.828 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-27 01:08:08.318 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-01-27 01:08:08.319 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-27 01:08:08.417 [info] Eager extensions activated
+2025-01-27 01:08:08.417 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-27 01:08:08.417 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-27 01:08:08.417 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-01-27 01:08:08.622 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-01-27 01:08:08.954 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-27 01:08:08.954 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-27 01:08:08.954 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-27 01:08:09.095 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-01-27 01:08:09.098 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-01-27 01:08:10.525 [info] ExtensionService#_doActivateExtension CodeRoad.coderoad, startup: false, activationEvent: 'onCommand:coderoad.start'
+2025-01-27 01:09:13.503 [error] Error: Command failed: git commit -am 'Save progress: 30.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:09:20.355 [error] Error: Command failed: git commit -am 'Save progress: 40.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:09:22.913 [error] Error: Command failed: git commit -am 'Save progress: 50.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:09:25.055 [error] Error: Command failed: git commit -am 'Save progress: 60.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:09:27.954 [error] Error: Command failed: git commit -am 'Save progress: 70.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:09:31.139 [error] Error: Command failed: git commit -am 'Save progress: 80.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:09:33.931 [error] Error: Command failed: git commit -am 'Save progress: 90.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:09:36.805 [error] Error: Command failed: git commit -am 'Save progress: 100.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:10:22.509 [error] Error: Command failed: git commit -am 'Save progress: 110.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:10:29.683 [error] Error: Command failed: git commit -am 'Save progress: 120.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:10:36.739 [error] Error: Command failed: git commit -am 'Save progress: 130.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:10:55.382 [error] Error: Command failed: git commit -am 'Save progress: 140.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:10:57.991 [error] Error: Command failed: git commit -am 'Save progress: 150.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:00.570 [error] Error: Command failed: git commit -am 'Save progress: 160.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:02.806 [error] Error: Command failed: git commit -am 'Save progress: 170.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:05.622 [error] Error: Command failed: git commit -am 'Save progress: 180.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:08.589 [error] Error: Command failed: git commit -am 'Save progress: 181.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:11.459 [error] Error: Command failed: git commit -am 'Save progress: 182.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:13.949 [error] Error: Command failed: git commit -am 'Save progress: 183.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:17.003 [error] Error: Command failed: git commit -am 'Save progress: 184.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:19.558 [error] Error: Command failed: git commit -am 'Save progress: 185.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:21.936 [error] Error: Command failed: git commit -am 'Save progress: 190.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:25.224 [error] Error: Command failed: git commit -am 'Save progress: 200.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:27.536 [error] Error: Command failed: git commit -am 'Save progress: 210.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:31.259 [error] Error: Command failed: git commit -am 'Save progress: 220.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:34.952 [error] Error: Command failed: git commit -am 'Save progress: 230.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:37.490 [error] Error: Command failed: git commit -am 'Save progress: 240.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:11:39.569 [error] Error: Command failed: git commit -am 'Save progress: 250.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:04.801 [error] Error: Command failed: git commit -am 'Save progress: 260.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:06.960 [error] Error: Command failed: git commit -am 'Save progress: 270.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:09.408 [error] Error: Command failed: git commit -am 'Save progress: 280.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:16.244 [error] Error: Command failed: git commit -am 'Save progress: 285.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:18.810 [error] Error: Command failed: git commit -am 'Save progress: 290.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:21.599 [error] Error: Command failed: git commit -am 'Save progress: 300.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:24.715 [error] Error: Command failed: git commit -am 'Save progress: 310.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:28.186 [error] Error: Command failed: git commit -am 'Save progress: 320.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:30.650 [error] Error: Command failed: git commit -am 'Save progress: 330.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:32.756 [error] Error: Command failed: git commit -am 'Save progress: 340.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:35.191 [error] Error: Command failed: git commit -am 'Save progress: 350.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:38.138 [error] Error: Command failed: git commit -am 'Save progress: 360.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:42.043 [error] Error: Command failed: git commit -am 'Save progress: 370.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:44.252 [error] Error: Command failed: git commit -am 'Save progress: 380.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:47.042 [error] Error: Command failed: git commit -am 'Save progress: 390.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:49.867 [error] Error: Command failed: git commit -am 'Save progress: 400.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:52.523 [error] Error: Command failed: git commit -am 'Save progress: 410.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:55.187 [error] Error: Command failed: git commit -am 'Save progress: 420.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:12:57.803 [error] Error: Command failed: git commit -am 'Save progress: 430.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:00.138 [error] Error: Command failed: git commit -am 'Save progress: 440.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:02.472 [error] Error: Command failed: git commit -am 'Save progress: 450.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:04.686 [error] Error: Command failed: git commit -am 'Save progress: 460.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-01-27 01:13:07.082 [error] Error: Command failed: git commit -am 'Save progress: 470.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:09.306 [error] Error: Command failed: git commit -am 'Save progress: 480.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:11.885 [error] Error: Command failed: git commit -am 'Save progress: 490.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:14.273 [error] Error: Command failed: git commit -am 'Save progress: 500.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:17.257 [error] Error: Command failed: git commit -am 'Save progress: 510.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:20.802 [error] Error: Command failed: git commit -am 'Save progress: 520.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:25.547 [error] Error: Command failed: git commit -am 'Save progress: 530.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:29.381 [error] Error: Command failed: git commit -am 'Save progress: 540.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:32.837 [error] Error: Command failed: git commit -am 'Save progress: 550.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:35.403 [error] Error: Command failed: git commit -am 'Save progress: 560.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:37.915 [error] Error: Command failed: git commit -am 'Save progress: 570.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:40.910 [error] Error: Command failed: git commit -am 'Save progress: 580.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:43.154 [error] Error: Command failed: git commit -am 'Save progress: 585.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:46.204 [error] Error: Command failed: git commit -am 'Save progress: 590.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:13:48.839 [error] Error: Command failed: git commit -am 'Save progress: 600.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-01-27 01:19:31.774 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

@@ -1,0 +1,193 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Continuing tutorial from progress: level 690 step 690.1
+LOAD_STORED_TUTORIAL
+EDITOR_TUTORIAL_CONTINUE_CONFIG
+Tutorial: Learn Bash by Building a Boilerplate (2.0.0)
+Command: ./freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./freeCodeCamp/setup.sh
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 690, step 690.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+Calling command: git log -n 1 --pretty=format:%s e0e48a695ae0bda2c0ac87ead5de96189aa4bcf3
+Calling command: git log -g --grep='690.1'
+Calling command: git cherry-pick -X theirs e0e48a695ae0bda2c0ac87ead5de96189aa4bcf3
+cherry-pick-commit failed: Command failed: git cherry-pick -X theirs e0e48a695ae0bda2c0ac87ead5de96189aa4bcf3
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+
+Calling command: git stash --include-untracked
+Command output: 
+COMMAND_SUCCESS
+Command: ./freeCodeCamp/reset.sh
+COMMAND_START
+Calling command: ./freeCodeCamp/reset.sh
+Command output: 
+COMMAND_SUCCESS
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_RESET_LATEST
+Calling command: git init
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 690, step 690.1
+Calling command: git branch --show-current
+Calling command: git remote -v
+Calling command: git checkout --orphan reset-orphan-branch
+Error resetting: Command failed: git checkout --orphan reset-orphan-branch
+error: you need to resolve your current index first
+
+Command: ./freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./freeCodeCamp/setup.sh
+Command output: 
+COMMAND_SUCCESS
+Command: ./freeCodeCamp/reset.sh
+COMMAND_START
+Calling command: ./freeCodeCamp/reset.sh
+Command output: 
+COMMAND_SUCCESS
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 690, step 690.1
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 690, step 690.1
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 690, step 690.1
+STATE: "Tutorial.Reset"
+ROUTE: "Tutorial.Reset": On level 690, step 690.1
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 690, step 690.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+Calling command: git log -n 1 --pretty=format:%s e0e48a695ae0bda2c0ac87ead5de96189aa4bcf3
+Calling command: git log -g --grep='690.1'
+Calling command: git cherry-pick -X theirs e0e48a695ae0bda2c0ac87ead5de96189aa4bcf3
+cherry-pick-commit failed: Command failed: git cherry-pick -X theirs e0e48a695ae0bda2c0ac87ead5de96189aa4bcf3
+error: Cherry-picking is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: cherry-pick failed
+
+Calling command: git stash --include-untracked
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1

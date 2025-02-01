@@ -1,0 +1,16 @@
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'cd' && /\/project\/website\/images$/.test(cwd))
+
+at Context.<anonymous> (test/630.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'cd' && /\/project\/website\/images$/.test(cwd))
+
+at Context.<anonymous> (test/630.test.js:9:5)

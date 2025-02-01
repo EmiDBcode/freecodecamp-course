@@ -1,0 +1,35 @@
+2025-01-26 06:39:07.722 [info] [main] Log level: Info
+2025-01-26 06:39:07.722 [info] [main] Validating found git in: "git"
+2025-01-26 06:39:07.722 [info] [main] Using git "2.43.0" from "git"
+2025-01-26 06:39:07.722 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-26 06:39:07.722 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-26 06:39:07.722 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-01-26 06:39:07.722 [info] [Model][openRepository] Opened repository: /workspace/project
+2025-01-26 06:39:07.722 [info] > git config --get commit.template [5ms]
+2025-01-26 06:39:07.722 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-26 06:39:07.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-26 06:39:07.722 [info] > git status -z -uall [5ms]
+2025-01-26 06:39:07.722 [info] > git rev-parse --show-toplevel [10ms]
+2025-01-26 06:39:07.722 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-26 06:39:07.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-26 06:39:07.722 [info] > git config --get commit.template [4ms]
+2025-01-26 06:39:07.722 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-26 06:39:07.722 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2025-01-26 06:39:07.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-26 06:39:07.722 [info] > git rev-parse --show-toplevel [13ms]
+2025-01-26 06:39:07.722 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-26 06:39:07.722 [info] > git status -z -uall [4ms]
+2025-01-26 06:39:07.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-01-26 06:39:07.722 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-01-26 06:39:08.038 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [17ms]
+2025-01-26 06:39:08.181 [info] > git show --textconv :website/styles.css [4ms]
+2025-01-26 06:39:08.182 [info] > git ls-files --stage -- /workspace/project/website/styles.css [1ms]
+2025-01-26 06:39:08.644 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-26 06:39:11.281 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2025-01-26 06:39:11.281 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 06:39:11.286 [info] > git config --local branch.main.remote [2ms]
+2025-01-26 06:39:11.286 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 06:39:11.291 [info] > git config --local branch.main.merge [2ms]
+2025-01-26 06:39:11.291 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 06:39:12.351 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-26 06:39:43.500 [info] > git check-ignore -v -z --stdin [2ms]

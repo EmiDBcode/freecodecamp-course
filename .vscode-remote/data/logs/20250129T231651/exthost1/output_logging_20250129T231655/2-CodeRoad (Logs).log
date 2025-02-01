@@ -1,0 +1,127 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Continuing tutorial from progress: level 630 step 630.1
+LOAD_STORED_TUTORIAL
+EDITOR_TUTORIAL_CONTINUE_CONFIG
+Tutorial: Learn Bash by Building a Boilerplate (2.0.0)
+Command: ./freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./freeCodeCamp/setup.sh
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 630, step 630.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+Calling command: git log -n 1 --pretty=format:%s 144e648c2b9c80e1b1033b7d0bea215a1118d425
+Calling command: git log -g --grep='630.1'
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+Command output: 
+COMMAND_SUCCESS
+Command: ./freeCodeCamp/reset.sh
+COMMAND_START
+Calling command: ./freeCodeCamp/reset.sh
+Command output: 
+COMMAND_SUCCESS
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"630.1","levelId":"630","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"630.1","levelId":"630","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 630.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 630, step 630.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 630, step 630.1
+Commit saved: [main b5df710b] Save progress: 630.1
+ 4 files changed, 74 insertions(+)
+ mode change 100644 => 100755 freeCodeCamp/reset_files/website/images/footer.jpeg
+ mode change 100644 => 100755 freeCodeCamp/reset_files/website/images/header.png
+
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 640, step 640.1
+Calling command: git log -n 1 --pretty=format:%s a9fcfa412b25ad296fdb2865932bd64b914becbd
+Calling command: git log -g --grep='640.1'
+Calling command: git cherry-pick -X theirs a9fcfa412b25ad296fdb2865932bd64b914becbd

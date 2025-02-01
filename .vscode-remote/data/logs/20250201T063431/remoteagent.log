@@ -1,0 +1,8 @@
+2025-02-01 06:34:31.048 [info] 
+
+
+
+
+2025-02-01 06:34:31.073 [info] Extension host agent started.
+2025-02-01 06:34:31.124 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-02-01 06:34:31.124 [info] Extension 'github.vscode-pull-request-github' v0.102.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.

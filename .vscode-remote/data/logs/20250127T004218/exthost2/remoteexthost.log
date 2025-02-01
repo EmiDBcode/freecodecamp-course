@@ -1,0 +1,179 @@
+2025-01-27 00:43:04.305 [info] Extension host with pid 231 started
+2025-01-27 00:43:04.307 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/98105b4/vscode.lock': Lock acquired.
+2025-01-27 00:43:04.530 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2025-01-27 00:43:05.106 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-27 00:43:05.302 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-27 00:43:05.302 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-27 00:43:05.609 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-01-27 00:43:05.609 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-27 00:43:05.752 [info] Extension host terminating: received terminate message from renderer
+2025-01-27 00:43:05.754 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/98105b4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-01-27 00:43:05.761 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.762 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.762 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.762 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.762 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.762 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.763 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.763 [error] Canceled: Canceled
+	at Oc (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129064
+	at Array.forEach (<anonymous>)
+	at Ay.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:129004)
+	at Vz.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
+	at YC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Vm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at n6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at $h.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at wA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:32:21924) setContext undefined
+2025-01-27 00:43:05.763 [info] Extension host with pid 231 exiting with code 0

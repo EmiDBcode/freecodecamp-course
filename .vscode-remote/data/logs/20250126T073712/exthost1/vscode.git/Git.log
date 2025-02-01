@@ -1,0 +1,35 @@
+2025-01-26 07:39:09.615 [info] [main] Log level: Info
+2025-01-26 07:39:09.615 [info] [main] Validating found git in: "git"
+2025-01-26 07:39:09.615 [info] [main] Using git "2.43.0" from "git"
+2025-01-26 07:39:09.615 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-26 07:39:09.615 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-26 07:39:09.615 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-01-26 07:39:09.615 [info] [Model][openRepository] Opened repository: /workspace/project
+2025-01-26 07:39:09.615 [info] > git config --get commit.template [4ms]
+2025-01-26 07:39:09.615 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-26 07:39:09.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-26 07:39:09.615 [info] > git status -z -uall [6ms]
+2025-01-26 07:39:09.615 [info] > git rev-parse --show-toplevel [11ms]
+2025-01-26 07:39:09.615 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-26 07:39:09.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-26 07:39:09.615 [info] > git rev-parse --show-toplevel [20ms]
+2025-01-26 07:39:09.615 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-26 07:39:09.615 [info] > git config --get commit.template [5ms]
+2025-01-26 07:39:09.615 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-01-26 07:39:09.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-01-26 07:39:09.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-26 07:39:09.615 [info] > git status -z -uall [4ms]
+2025-01-26 07:39:09.615 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-01-26 07:39:10.179 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-26 07:39:10.232 [info] > git show --textconv :.gitpod.yml [4ms]
+2025-01-26 07:39:10.233 [info] > git ls-files --stage -- /workspace/project/.gitpod.yml [2ms]
+2025-01-26 07:39:12.491 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2025-01-26 07:39:12.491 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 07:39:12.496 [info] > git config --local branch.main.remote [2ms]
+2025-01-26 07:39:12.496 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 07:39:12.501 [info] > git config --local branch.main.merge [1ms]
+2025-01-26 07:39:12.501 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 07:39:12.787 [info] > git config --get commit.template [4ms]
+2025-01-26 07:39:12.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-26 07:39:12.796 [info] > git status -z -uall [4ms]
+2025-01-26 07:39:12.798 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

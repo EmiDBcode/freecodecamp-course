@@ -1,0 +1,96 @@
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/website$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)

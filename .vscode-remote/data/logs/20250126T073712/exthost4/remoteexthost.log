@@ -1,0 +1,24 @@
+2025-01-26 07:53:40.587 [info] Extension host with pid 4965 started
+2025-01-26 07:53:40.591 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/98105b4/vscode.lock': Lock acquired.
+2025-01-26 07:53:40.787 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2025-01-26 07:53:41.308 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-26 07:53:41.483 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-26 07:53:41.483 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-26 07:53:41.873 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-01-26 07:53:41.873 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-26 07:53:42.023 [info] Eager extensions activated
+2025-01-26 07:53:42.024 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-26 07:53:42.024 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-26 07:53:42.024 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-01-26 07:53:42.236 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-01-26 07:53:42.512 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-01-26 07:53:42.513 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-01-26 07:53:42.607 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-26 07:53:42.607 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-26 07:53:42.608 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-26 07:53:49.313 [info] ExtensionService#_doActivateExtension CodeRoad.coderoad, startup: false, activationEvent: 'onCommand:coderoad.start'
+2025-01-26 07:54:25.116 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-01-26 07:55:25.992 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-01-26 07:56:41.455 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-01-26 07:56:41.952 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-01-26 07:56:42.220 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'

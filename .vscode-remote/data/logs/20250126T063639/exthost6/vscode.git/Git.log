@@ -1,0 +1,41 @@
+2025-01-26 06:53:52.381 [info] [main] Log level: Info
+2025-01-26 06:53:52.381 [info] [main] Validating found git in: "git"
+2025-01-26 06:53:52.381 [info] [main] Using git "2.43.0" from "git"
+2025-01-26 06:53:52.381 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-26 06:53:52.381 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-26 06:53:52.381 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-01-26 06:53:52.381 [info] [Model][openRepository] Opened repository: /workspace/project
+2025-01-26 06:53:52.381 [info] > git config --get commit.template [5ms]
+2025-01-26 06:53:52.381 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-26 06:53:52.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-26 06:53:52.381 [info] > git status -z -uall [4ms]
+2025-01-26 06:53:52.381 [info] > git rev-parse --show-toplevel [11ms]
+2025-01-26 06:53:52.381 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-01-26 06:53:52.381 [info] > git rev-parse --show-toplevel [13ms]
+2025-01-26 06:53:52.381 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-26 06:53:52.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-26 06:53:52.381 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-01-26 06:53:52.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-01-26 06:53:52.386 [info] > git show --textconv HEAD:website/.gitignore [14ms]
+2025-01-26 06:53:52.386 [info] > git ls-tree -l HEAD -- /workspace/project/website/.gitignore [10ms]
+2025-01-26 06:53:52.388 [info] > git config --get commit.template [2ms]
+2025-01-26 06:53:52.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-26 06:53:52.404 [info] > git status -z -uall [4ms]
+2025-01-26 06:53:52.432 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+2025-01-26 06:53:52.678 [info] > git ls-tree -l HEAD -- /workspace/project/website/.gitignore [2ms]
+2025-01-26 06:53:52.897 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-26 06:53:56.012 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2025-01-26 06:53:56.012 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 06:53:56.018 [info] > git config --local branch.main.remote [1ms]
+2025-01-26 06:53:56.018 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 06:53:56.022 [info] > git config --local branch.main.merge [1ms]
+2025-01-26 06:53:56.022 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 06:54:01.026 [info] > git ls-tree -l HEAD -- /workspace/project/website/.gitignore [2ms]
+2025-01-26 06:54:47.036 [info] > git ls-tree -l HEAD -- /workspace/project/website/.gitignore [3ms]
+2025-01-26 06:54:50.853 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-26 06:54:53.630 [info] > git show --textconv :.gitpod.yml [6ms]
+2025-01-26 06:54:53.632 [info] > git ls-files --stage -- /workspace/project/.gitpod.yml [3ms]
+2025-01-26 06:54:53.965 [info] > git config --get commit.template [5ms]
+2025-01-26 06:54:53.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-26 06:54:53.975 [info] > git status -z -uall [5ms]
+2025-01-26 06:54:53.977 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

@@ -1,0 +1,12 @@
+2025-01-26 07:59:51.145 [info] 
+
+
+
+
+2025-01-26 07:59:51.168 [info] Extension host agent started.
+2025-01-26 07:59:51.229 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-01-26 07:59:51.229 [info] Extension 'github.vscode-pull-request-github' v0.102.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-01-26 07:59:53.607 [info] [192.168.171.139][21b999f0][ManagementConnection] New connection established.
+2025-01-26 07:59:54.162 [info] [192.168.171.139][6bbbe3a9][ExtensionHostConnection] New connection established.
+2025-01-26 07:59:54.171 [info] [192.168.171.139][6bbbe3a9][ExtensionHostConnection] <114> Launched Extension Host Process.
+2025-01-26 08:03:04.827 [info] [192.168.171.139][21b999f0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
